@@ -1,0 +1,14 @@
+	AREA LAB4,CODE,READONLY
+START
+     MOV R0,#25
+	 MOV R1,#15
+	 MOV R2,#22
+     CMP R0,R1,R2
+	 MOV R3,R0
+	 CMP R1,R0,R2
+	 MOV R3,R1
+    ADD R5,R0,R2
+    LSR R6,R5
+    BX LR
+    END
+	 
